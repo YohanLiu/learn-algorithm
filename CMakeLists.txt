@@ -4,5 +4,5 @@ project(learn_algorithm)
 set(CMAKE_CXX_STANDARD 20)
 
 
-
+add_subdirectory(exercises)
 
