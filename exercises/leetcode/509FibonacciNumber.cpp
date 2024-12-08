@@ -1,7 +1,11 @@
-//
-// Created by Yohan on 2024/12/5.
-//
-#include<bits/stdc++.h>
+/**
+* @author yinhou.liu
+* @Date 2024/12/07
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
 
 class Solution {
 public:
@@ -21,6 +25,6 @@ int main() {
     Solution solution;
     int n = 4; // 你可以更改这个值来测试不同的输入
     int result = solution.fib(n);
-    std::cout << "Number of ways to fib " << n << " stairs: " << result << std::endl;
+    cout << "Number of ways to fib " << n << " stairs: " << result << endl;
     return 0;
 }

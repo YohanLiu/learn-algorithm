@@ -1,8 +1,11 @@
-//
-// Created by Yohan on 2024/12/5.
-//
+/**
+* @author yinhou.liu
+* @Date 2024/12/07
+*/
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 class Solution {
 public:
@@ -24,6 +27,6 @@ int main() {
     Solution solution;
     int n = 5; // 你可以更改这个值来测试不同的输入
     int result = solution.climbStairs(n);
-    std::cout << "Number of ways to climb " << n << " stairs: " << result << std::endl;
+    cout << "Number of ways to climb " << n << " stairs: " << result << endl;
     return 0;
 }
