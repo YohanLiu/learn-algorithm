@@ -7,6 +7,7 @@
 
 using namespace std;
 
+// 740. 删除并获得点数
 class Solution {
 public:
     int deleteAndEarn(vector<int>& nums) {

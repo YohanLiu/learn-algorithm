@@ -7,6 +7,7 @@
 
 using namespace std;
 
+// 1143. 最长公共子序列
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
